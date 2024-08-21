@@ -1,5 +1,5 @@
 # ASSIGNMENT-NOTES
-I have install tailwind instead of using CDN.
+I have installed tailwind instead of using CDN.
 
 ## Submission Links:
 

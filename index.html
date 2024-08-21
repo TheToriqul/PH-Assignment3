@@ -51,9 +51,9 @@
           </ul>
           <a
             href="#"
-            class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+            class="bg-[#ABEF5F] hover:bg-green-600 text-white font-bold py-2 px-4 rounded-box"
           >
-            Book Consult
+            Book Consult 
           </a>
         </div>
 
@@ -69,21 +69,19 @@
             </div>
             <span class="text-4xl font-extrabold">Rinterio</span>
           </a>
-          <button class="focus:outline-none">
-            <svg
-              class="h-6 w-6 text-gray-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+          <div class="dropdown dropdown-bottom dropdown-end">
+            <div tabindex="0" role="button" class="btn m-1 btn-circle"><i class="fa-solid fa-bars"></i></div>
+            <ul
+              tabindex="0"
+              class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
+            <li><a href="#" class="hover:text-gray-800">Home</a></li>
+            <li><a href="#" class="hover:text-gray-800">Services</a></li>
+            <li><a href="#" class="hover:text-gray-800">Portfolio</a></li>
+            <li><a href="#" class="hover:text-gray-800">Blogs</a></li>
+            <li><a href="#" class="hover:text-gray-800">Contact Us</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -110,11 +108,6 @@
     <!-- Main Section -->
     <main class="container mx-auto">
       <!-- Content goes here -->
-      <div
-        class="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center"
-      >
-        <i class="fa-solid fa-arrow-right -rotate-45"></i>
-      </div>
     </main>
 
     <!-- Footer Section -->
