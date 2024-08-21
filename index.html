@@ -3,18 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 3</title>
+    <title>Rinterio</title>
     <link rel="stylesheet" href="./dist/styles.css" />
+    <link rel="shortcut icon" href="./assets/fav.png" type="image/x-icon" />
+    <!-- Googlee Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/eba672e269.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS -->
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
   <body>
     <!-- Header Section -->
     <header class="container mx-auto">
-      <!-- Content goes here -->
+      <!-- Navigation -->
+      <nav>
+        <!-- Desktop Navigation -->
+        <div
+          class="hidden md:flex justify-between items-center px-8 py-4 bg-white"
+        >
+          <a href="#" class="flex items-center gap-3">
+            <div
+              class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+            >
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </div>
+            <span class="text-4xl font-extrabold">Rinterio</span>
+          </a>
+          <ul class="flex space-x-6 text-gray-500 font-medium">
+            <li><a href="#" class="hover:text-gray-800">Home</a></li>
+            <li><a href="#" class="hover:text-gray-800">Services</a></li>
+            <li><a href="#" class="hover:text-gray-800">Portfolio</a></li>
+            <li><a href="#" class="hover:text-gray-800">Blogs</a></li>
+            <li><a href="#" class="hover:text-gray-800">Contact Us</a></li>
+          </ul>
+          <a
+            href="#"
+            class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+          >
+            Book Consult
+          </a>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div
+          class="flex md:hidden justify-between items-center px-4 py-3 bg-white"
+        >
+          <a href="#" class="flex items-center gap-3">
+            <div
+              class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+            >
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </div>
+            <span class="text-4xl font-extrabold">Rinterio</span>
+          </a>
+          <button class="focus:outline-none">
+            <svg
+              class="h-6 w-6 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col">
+          <img src="./assets/banner.png" class="max-w-sm rounded-lg" />
+          <div>
+            <h1 class="text-5xl font-bold">
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="py-6">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <button class="btn btn-primary">View Details</button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Main Section -->
-    <main class="container mx-auto">      
+    <main class="container mx-auto">
       <!-- Content goes here -->
+      <div
+        class="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center"
+      >
+        <i class="fa-solid fa-arrow-right -rotate-45"></i>
+      </div>
     </main>
 
     <!-- Footer Section -->
