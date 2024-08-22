@@ -133,12 +133,16 @@
 
     <!-- Main Section -->
     <main class="">
-      <!-- Whole About Section -->
+      <!-- About Section -->
       <section class="bg-gray-300">
-        <!-- About Section -->
-        <section class="container mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center pt-20 pb-20">
-            <div class="space-y-7 flex flex-col items-center lg:items-start px-4">
+        <!-- About Part -->
+        <div class="container mx-auto">
+          <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center pt-20 pb-6"
+          >
+            <div
+              class="space-y-7 flex flex-col items-center lg:items-start px-4"
+            >
               <div class="relative py-4 text-center lg:text-left">
                 <img
                   src="./assets/Vector.png"
@@ -154,13 +158,20 @@
                   About Us
                 </button>
               </div>
-              <h2 class="text-3xl font-extrabold text-center lg:text-left leading-tight">
+              <h2
+                class="text-3xl font-extrabold text-center lg:text-left leading-tight"
+              >
                 We design thoughtful, liveable spaces
               </h2>
               <p class="text-gray-600 text-center lg:text-left">
-                Our designs blend rustic charm with modern sophistication, featuring elements like weathered wood, sleek metal accents, and expansive windows that enhance natural light and connectivity with the outdoors.
+                Our designs blend rustic charm with modern sophistication,
+                featuring elements like weathered wood, sleek metal accents, and
+                expansive windows that enhance natural light and connectivity
+                with the outdoors.
               </p>
-              <div class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start">
+              <div
+                class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start"
+              >
                 <div class="flex items-start lg:items-center lg:justify-start">
                   <img
                     src="./assets/commercial.png"
@@ -170,12 +181,16 @@
                   <div>
                     <h3 class="font-bold text-xl mb-2">Commercial Design</h3>
                     <p class="text-gray-600">
-                      We specialize in designing functional and aesthetically pleasing commercial spaces that reflect your brand's identity while meeting your business needs.
+                      We specialize in designing functional and aesthetically
+                      pleasing commercial spaces that reflect your brand's
+                      identity while meeting your business needs.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start">
+              <div
+                class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start"
+              >
                 <div class="flex items-start lg:items-center lg:justify-start">
                   <img
                     src="./assets/residential.png"
@@ -185,7 +200,9 @@
                   <div>
                     <h3 class="font-bold text-xl mb-2">Residential Design</h3>
                     <p class="text-gray-600">
-                      Our residential designs focus on creating comfortable, stylish homes that suit your lifestyle, with a blend of traditional and contemporary elements.
+                      Our residential designs focus on creating comfortable,
+                      stylish homes that suit your lifestyle, with a blend of
+                      traditional and contemporary elements.
                     </p>
                   </div>
                 </div>
@@ -199,9 +216,375 @@
               />
             </div>
           </div>
-          
-        </section>
-        
+        </div>
+
+        <!-- Statistics Part -->
+        <div class="container mx-auto px-4 lg:pt-20">
+          <!-- Grid container for statistics cards -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 bg-white p-10 rounded-lg items-center"
+          >
+            <!-- Happy Client Review Card -->
+            <div class="rounded-lg p-6 text-center">
+              <div class="flex justify-center mb-4">
+                <i class="fas fa-comment-alt text-4xl text-gray-600"></i>
+              </div>
+              <h2 class="text-4xl font-bold mb-2">235+</h2>
+              <p class="text-gray-600">Happy Client Review</p>
+            </div>
+
+            <!-- Work Departments Card -->
+            <div class="rounded-lg px-6 text-center">
+              <div class="flex justify-center mb-4">
+                <i class="fas fa-building text-4xl text-gray-600"></i>
+              </div>
+              <h2 class="text-4xl font-bold mb-2">50+</h2>
+              <p class="text-gray-600">Work Departments</p>
+            </div>
+
+            <!-- Our Happy Client Card -->
+            <div class="rounded-lg p-6 text-center">
+              <div class="flex justify-center mb-4">
+                <i class="fas fa-users text-4xl text-gray-600"></i>
+              </div>
+              <h2 class="text-4xl font-bold mb-2">30k+</h2>
+              <p class="text-gray-600">Our Happy Client</p>
+            </div>
+
+            <!-- Staff Members Card -->
+            <div class="rounded-lg p-6 text-center">
+              <div class="flex justify-center mb-4">
+                <i class="fas fa-user-tie text-4xl text-gray-600"></i>
+              </div>
+              <h2 class="text-4xl font-bold mb-2">307+</h2>
+              <p class="text-gray-600">Staff Members</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Works Process Part -->
+        <div class="container mx-auto px-4 py-12">
+          <!-- Section Header -->
+          <div class="text-center mb-12">
+            <span class="text-sm font-bold text-gray-600 mb-2 inline-block"
+              >→ How we work</span
+            >
+            <h2 class="text-4xl font-bold mb-4">Our Works Process</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+              Our comprehensive approach ensures that every project is executed
+              with precision and care, from initial concept to final
+              construction. We blend creativity with practicality to bring your
+              vision to life.
+            </p>
+          </div>
+          <!-- Process Cards Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Concept Card -->
+            <div class="bg-pink-200 rounded-lg p-6">
+              <img
+                src="./assets/concept.png"
+                alt="Concept"
+                class="w-12 h-12 mb-4"
+              />
+              <h3 class="text-xl font-semibold mb-2">Concept</h3>
+              <p class="text-gray-700">
+                We begin by exploring your ideas and requirements, crafting a
+                unique concept that aligns with your vision and architectural
+                needs.
+              </p>
+            </div>
+
+            <!-- Design Process Card -->
+            <div class="bg-yellow-200 rounded-lg p-6">
+              <img
+                src="./assets/flow-chart.png"
+                alt="Design Process"
+                class="w-12 h-12 mb-4"
+              />
+              <h3 class="text-xl font-semibold mb-2">Design Process</h3>
+              <p class="text-gray-700">
+                Our expert team develops detailed plans and 3D models, refining
+                every aspect of the design to ensure functionality and aesthetic
+                appeal.
+              </p>
+            </div>
+
+            <!-- Supervision Card -->
+            <div class="bg-green-200 rounded-lg p-6">
+              <img
+                src="./assets/vision.png"
+                alt="Supervision"
+                class="w-12 h-12 mb-4"
+              />
+              <h3 class="text-xl font-semibold mb-2">Supervision</h3>
+              <p class="text-gray-700">
+                We closely oversee the construction process, ensuring that every
+                detail is executed to perfection and adheres to the highest
+                quality standards.
+              </p>
+            </div>
+
+            <!-- Budget Planning Card -->
+            <div class="bg-blue-200 rounded-lg p-6">
+              <img
+                src="./assets/budget-planning.png"
+                alt="Budget Planning"
+                class="w-12 h-12 mb-4"
+              />
+              <h3 class="text-xl font-semibold mb-2">Budget Planning</h3>
+              <p class="text-gray-700">
+                Our meticulous budget planning ensures that your project is
+                completed within the agreed financial framework, optimizing
+                resources without compromising quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Latest Portfolio Section -->
+      <section class="py-16">
+        <div class="container mx-auto px-4">
+          <!-- Latest works -->
+          <div class="text-center mb-12">
+            <span
+              class="text-sm font-bold text-green-700 bg-green-100 px-3 py-1 rounded-full mb-2 inline-block"
+              >→ Explore our Latest works</span
+            >
+            <h2 class="text-4xl font-bold mb-4">Our Latest Portfolio</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+              Discover our most recent architectural marvels, showcasing a
+              perfect blend of innovative design and functionality. Each project
+              reflects our commitment to creating spaces that inspire and
+              endure.
+            </p>
+          </div>
+
+          <!-- Portfolio Grid -->
+          <div class="space-y-8">
+            <!-- First Section: 3-column grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:h-64">
+              <!-- Commercial Project 1 -->
+              <div
+                class="lg:col-span-2 bg-white rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6 lg:items-center"
+              >
+                <div
+                  class="lg:w-2/5 h-64 lg:h-auto lg:p-6 flex items-center justify-center"
+                >
+                  <img
+                    src="./assets/img1.png"
+                    alt="Commercial Project"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+                <div class="lg:w-3/5 p-5 md:p-6">
+                  <h3 class="text-2xl font-semibold mb-4">Commercial</h3>
+                  <p class="text-gray-600 mb-6">
+                    Our latest office complex seamlessly blends modern
+                    aesthetics with eco-friendly design. Featuring open spaces
+                    that foster collaboration, energy-efficient systems, and
+                    abundant natural light, this project sets a new standard for
+                    sustainable workplaces.
+                  </p>
+                  <a href="#" class="btn btn-outline btn-success">
+                    View Details
+                    <div
+                      class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-right text-lg -rotate-45"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Luxury Home Project -->
+              <div
+                class="bg-white rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
+              >
+                <img
+                  src="./assets/img2.png"
+                  alt="Luxury Home"
+                  class="w-full h-full lg:h-full object-cover rounded-3xl"
+                />
+              </div>
+            </div>
+
+            <!-- Second Section: 4-column grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:h-64">
+              <!-- Modern House Project 1 -->
+              <div
+                class="bg-white rounded-3xl overflow-hidden h-full lg:h-auto p-5 md:p-6"
+              >
+                <img
+                  src="./assets/img3.png"
+                  alt="Modern House"
+                  class="w-full h-full object-cover rounded-3xl"
+                />
+              </div>
+
+              <!-- Commercial Project 2 -->
+              <div
+                class="lg:col-span-2 bg-white rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6"
+              >
+                <div class="lg:w-1/2 order-2 lg:order-1 p-5 md:p-6">
+                  <h3 class="text-2xl font-semibold mb-4">Commercial</h3>
+                  <p class="text-gray-600 mb-6">
+                    This innovative retail space re-imagines the shopping
+                    experience.
+                  </p>
+                  <a href="#" class="btn btn-outline btn-success">
+                    View Details
+                    <div
+                      class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+                    >
+                      <i class="fa-solid fa-arrow-right text-lg -rotate-45"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="lg:w-1/2 order-1 lg:order-2 h-64 lg:h-auto">
+                  <img
+                    src="./assets/img4.png"
+                    alt="Commercial Project"
+                    class="w-full h-full object-cover rounded-3xl"
+                  />
+                </div>
+              </div>
+
+              <!-- Modern House Project 2 -->
+              <div
+                class="bg-white rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
+              >
+                <img
+                  src="./assets/img5.png"
+                  alt="Modern House"
+                  class="w-full h-full object-cover rounded-3xl"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Articles and News Section -->
+      <section class="py-6">
+        <div class="container mx-auto px-4 py-3">
+          <!-- Title and Description -->
+          <div class="mb-8 text-center">
+            <a
+              href="#"
+              class="inline-block bg-green-100 text-green-800 text-sm px-4 py-2 rounded-full mb-2"
+            >
+              <i class="fas fa-arrow-right"></i> Rinterio News
+            </a>
+            <h2 class="text-4xl font-bold">Read Our Articles and News</h2>
+            <p class="text-gray-500 mt-2">
+              Stay updated with the latest trends and insights in modern home
+              design, from innovative architecture to interior decoration tips.
+            </p>
+          </div>
+
+          <!-- Articles -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Article 1 -->
+            <div class="bg-white rounded-lg p-6">
+              <img
+                src="./assets/article1.png"
+                alt="Article 1"
+                class="object-cover h-auto w-full rounded-lg mb-4"
+              />
+              <div class="flex items-center text-gray-500 text-sm mb-2">
+                <span class="mr-4"
+                  ><i class="fas fa-calendar-alt"></i> 23 August, 2024</span
+                >
+                <span><i class="fas fa-user"></i> By TheToriqul</span>
+              </div>
+              <h3 class="text-xl font-semibold mb-2">
+                Top 5 Modern Furniture Trends for 2024
+              </h3>
+              <p class="text-gray-500 mb-4">
+                Discover the latest trends in modern furniture design that will
+                redefine your living spaces with elegance and functionality.
+              </p>
+              <a
+                href="#"
+                class="text-green-600 font-semibold flex items-center gap-3"
+              >
+                Read More
+                <div
+                  class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-arrow-right text-lg -rotate-45"></i>
+                </div>
+              </a>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="bg-white rounded-lg p-6">
+              <img
+                src="./assets/article2.png"
+                alt="Article 2"
+                class="object-cover h-auto w-full rounded-lg mb-4"
+              />
+              <div class="flex items-center text-gray-500 text-sm mb-2">
+                <span class="mr-4"
+                  ><i class="fas fa-calendar-alt"></i> 23 August, 2024</span
+                >
+                <span><i class="fas fa-user"></i> TheToriqul </span>
+              </div>
+              <h3 class="text-xl font-semibold mb-2">
+                How to Maximize Space in a Modern Apartment
+              </h3>
+              <p class="text-gray-500 mb-4">
+                Learn the best space-saving techniques and furniture choices to
+                make your small apartment feel spacious and organized.
+              </p>
+              <a
+                href="#"
+                class="text-green-600 font-semibold flex items-center gap-3"
+              >
+                Read More
+                <div
+                  class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-arrow-right text-lg -rotate-45"></i>
+                </div>
+              </a>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="bg-white rounded-lg p-6">
+              <img
+                src="./assets/article3.png"
+                alt="Article 3"
+                class="object-cover h-auto w-full rounded-lg mb-4"
+              />
+              <div class="flex items-center text-gray-500 text-sm mb-2">
+                <span class="mr-4"
+                  ><i class="fas fa-calendar-alt"></i> 23 August, 2024</span
+                >
+                <span><i class="fas fa-user"></i> TheToriqul </span>
+              </div>
+              <h3 class="text-xl font-semibold mb-2">
+                Eco-Friendly Home Design Ideas
+              </h3>
+              <p class="text-gray-500 mb-4">
+                Explore sustainable home design ideas that blend style with
+                eco-conscious living, reducing your carbon footprint.
+              </p>
+              <a
+                href="#"
+                class="text-green-600 font-semibold flex items-center gap-3"
+              >
+                Read More
+                <div
+                  class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-arrow-right text-lg -rotate-45"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
