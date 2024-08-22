@@ -41,7 +41,9 @@
             <span class="text-4xl font-extrabold">Rinterio</span>
           </a>
           <ul class="flex space-x-6 text-gray-500 font-medium">
-            <li><a href="#" class="hover:text-gray-800">Home</a></li>
+            <li>
+              <a href="#" class="hover:text-gray-800 font-extrabold">Home</a>
+            </li>
             <li><a href="#" class="hover:text-gray-800">Services</a></li>
             <li><a href="#" class="hover:text-gray-800">Portfolio</a></li>
             <li><a href="#" class="hover:text-gray-800">Blogs</a></li>
@@ -266,9 +268,12 @@
         <div class="container mx-auto px-4 py-12">
           <!-- Section Header -->
           <div class="text-center mb-12">
-            <span class="text-sm font-bold text-gray-600 mb-2 inline-block"
-              >→ How we work</span
+            <a
+              href="#"
+              class="inline-block bg-slate-100 text-green-700 text-sm px-4 py-2 rounded-full mb-2"
             >
+              <i class="fas fa-arrow-right"></i> How We Work
+            </a>
             <h2 class="text-4xl font-bold mb-4">Our Works Process</h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
               Our comprehensive approach ensures that every project is executed
@@ -386,7 +391,7 @@
                     abundant natural light, this project sets a new standard for
                     sustainable workplaces.
                   </p>
-                  <a href="#" class="btn btn-outline btn-success">
+                  <a href="#" class="btn btn-outline hover:bg-lime-300">
                     View Details
                     <div
                       class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
@@ -432,7 +437,7 @@
                     This innovative retail space re-imagines the shopping
                     experience.
                   </p>
-                  <a href="#" class="btn btn-outline btn-success">
+                  <a href="#" class="btn btn-outline hover:bg-lime-300">
                     View Details
                     <div
                       class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
@@ -466,13 +471,13 @@
       </section>
 
       <!-- Articles and News Section -->
-      <section class="py-6">
+      <section class="py-6 lg:py-12">
         <div class="container mx-auto px-4 py-3">
           <!-- Title and Description -->
           <div class="mb-8 text-center">
             <a
               href="#"
-              class="inline-block bg-green-100 text-green-800 text-sm px-4 py-2 rounded-full mb-2"
+              class="inline-block bg-green-100 text-green-700 text-sm px-4 py-2 rounded-full mb-2"
             >
               <i class="fas fa-arrow-right"></i> Rinterio News
             </a>
@@ -586,11 +591,129 @@
           </div>
         </div>
       </section>
+
+      <!-- Next Project Section -->
+      <section
+        class="bg-cover bg-center py-16"
+        style="background-image: url('./assets/bg.jpg')"
+      >
+        <div class="container mx-auto px-4 text-center">
+          <!-- Next Project Heading -->
+          <div class="mb-8 text-center">
+            <button
+              class="bg-green-200 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2"
+            >
+              <i class="fas fa-arrow-right"></i>
+              <span>Let's Connect</span>
+            </button>
+            <h2 class="text-4xl font-extrabold mt-4">
+              Let's Discuss Your Next Project
+            </h2>
+            <p class="text-gray-600 mt-2 max-w-2xl mx-auto">
+              We're excited to collaborate with you on your upcoming project.
+              Whether it's a residential build, a commercial space, or a unique
+              design concept, our team is here to help bring your vision to
+              life. Let's start a conversation and explore how we can create
+              something extraordinary together.
+            </p>
+          </div>
+
+          <!-- Form -->
+          <form class="max-w-2xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder="First Name*"
+                class="input input-bordered w-full rounded-full"
+              />
+              <input
+                type="text"
+                placeholder="Last Name*"
+                class="input input-bordered w-full rounded-full"
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number*"
+                class="input input-bordered w-full rounded-full"
+              />
+              <input
+                type="email"
+                placeholder="Email Address*"
+                class="input input-bordered w-full rounded-full"
+              />
+            </div>
+            <textarea
+              class="textarea textarea-bordered textarea-lg w-full mt-4 rounded-3xl"
+              rows="4"
+              placeholder="Tell us about your project"
+            ></textarea>
+            <button
+              type="submit"
+              class="btn btn-success bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full mt-4"
+            >
+              Send Mail
+              <div
+                class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+              >
+                <i class="fa-solid fa-arrow-right text-lg -rotate-45"></i>
+              </div>
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-black">
-      <!-- Footer content goes here -->
+    <footer class="bg-black text-white py-12">
+      <div class="container mx-auto px-8 text-center">
+        <!-- Logo and Description -->
+        <div class="mb-8">
+          <div class="inline-flex items-center space-x-2">
+            <a href="#" class="flex items-center gap-3">
+              <div
+                class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
+              >
+                <i
+                  class="fa-solid fa-arrow-right text-black text-lg -rotate-45"
+                ></i>
+              </div>
+              <span class="text-4xl font-extrabold">Rinterio</span>
+            </a>
+          </div>
+          <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+
+        <!-- Footer Menu -->
+        <div
+          class="flex flex-col lg:flex-row lg:justify-center lg:space-x-8 gap-5 lg:gap-10 mb-8 items-center"
+        >
+          <a href="#" class="hover:text-lime-400">Home</a>
+          <a href="#" class="hover:text-lime-400">Services</a>
+          <a href="#" class="hover:text-lime-400">Portfolio</a>
+          <a href="#" class="hover:text-lime-400">Blogs</a>
+          <a href="#" class="hover:text-lime-400">Contact Us</a>
+        </div>
+
+        <!-- Book Consultation Button -->
+        <div>
+          <a
+            href="#"
+            class="bg-lime-400 text-black font-bold px-6 py-3 rounded-full inline-flex items-center space-x-2 hover:bg-lime-500"
+          >
+            <span>Book Consult</span>
+            <div
+              class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center ml-2"
+            >
+              <i
+                class="fa-solid fa-arrow-right text-lg text-black -rotate-45"
+              ></i>
+            </div>
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
