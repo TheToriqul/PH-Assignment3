@@ -6,14 +6,14 @@
     <title>Rinterio</title>
     <link rel="stylesheet" href="./dist/styles.css" />
     <link rel="shortcut icon" href="./assets/fav.png" type="image/x-icon" />
-    <!-- Googlee Fonts CDN -->
+    <!-- Google Fonts CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    <!-- Fontawesome CDN -->
+    <!-- Font Awesome CDN -->
     <script
       src="https://kit.fontawesome.com/eba672e269.js"
       crossorigin="anonymous"
@@ -30,8 +30,8 @@
     <header class="container mx-auto">
       <!-- Navigation -->
       <nav>
-        <!-- Desktop Navigation -->
-        <div class="hidden md:flex justify-between items-center py-8">
+        <!-- Desktop & Tab Navigation -->
+        <div class="hidden md:flex justify-between items-center py-8 px-6 lg:px-0">
           <a href="#" class="flex items-center gap-3">
             <div
               class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
@@ -40,7 +40,7 @@
             </div>
             <span class="text-4xl font-extrabold">Rinterio</span>
           </a>
-          <ul class="flex space-x-6 text-gray-500 font-medium">
+          <ul class="hidden lg:flex space-x-6 text-gray-500 font-medium">
             <li>
               <a href="#" class="hover:text-gray-800 font-extrabold">Home</a>
             </li>
@@ -49,7 +49,8 @@
             <li><a href="#" class="hover:text-gray-800">Blogs</a></li>
             <li><a href="#" class="hover:text-gray-800">Contact Us</a></li>
           </ul>
-          <div class="flex gap-3 justify-center items-center">
+
+          <div class="flex gap-3 justify-center items-center ml-40 lg:ml-0">
             <button class="btn btn-ghost btn-circle bg-white">
               <i class="fa-solid fa-magnifying-glass text-lg"></i>
             </button>
@@ -68,6 +69,19 @@
               </div>
             </a>
           </div>
+          <div class="hidden md:block lg:hidden dropdown dropdown-bottom dropdown-end">
+            <div tabindex="0" role="button" class="btn m-1 btn-circle bg-white">
+              <i class="fa-solid fa-bars text-lg"></i>
+            </div>
+            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+              <li><a href="#" class="hover:text-gray-800">Home</a></li>
+              <li><a href="#" class="hover:text-gray-800">Services</a></li>
+              <li><a href="#" class="hover:text-gray-800">Portfolio</a></li>
+              <li><a href="#" class="hover:text-gray-800">Blogs</a></li>
+              <li><a href="#" class="hover:text-gray-800">Contact Us</a></li>
+            </ul>
+          </div>
+          
         </div>
 
         <!-- Mobile Navigation -->
@@ -161,7 +175,7 @@
                 </button>
               </div>
               <h2
-                class="text-3xl font-extrabold text-center lg:text-left leading-tight"
+                class="text-4xl font-extrabold text-center lg:text-left leading-tight"
               >
                 We design thoughtful, liveable spaces
               </h2>
@@ -172,40 +186,48 @@
                 with the outdoors.
               </p>
               <div
-                class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start"
+                class="space-y-7 md:space-y-0 md:grid md:grid-cols-2 md:gap-7 lg:space-y-7 lg:grid-cols-1 lg:block"
               >
-                <div class="flex items-start lg:items-center lg:justify-start">
-                  <img
-                    src="./assets/commercial.png"
-                    alt="Commercial icon"
-                    class="w-12 h-12 mr-4"
-                  />
-                  <div>
-                    <h3 class="font-bold text-xl mb-2">Commercial Design</h3>
-                    <p class="text-gray-600">
-                      We specialize in designing functional and aesthetically
-                      pleasing commercial spaces that reflect your brand's
-                      identity while meeting your business needs.
-                    </p>
+                <div
+                  class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start"
+                >
+                  <div
+                    class="flex items-start lg:items-center lg:justify-start"
+                  >
+                    <img
+                      src="./assets/commercial.png"
+                      alt="Commercial icon"
+                      class="w-12 h-12 mr-4"
+                    />
+                    <div>
+                      <h3 class="font-bold text-xl mb-2">Commercial Design</h3>
+                      <p class="text-gray-600">
+                        We specialize in designing functional and aesthetically
+                        pleasing commercial spaces that reflect your brand's
+                        identity while meeting your business needs.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start"
-              >
-                <div class="flex items-start lg:items-center lg:justify-start">
-                  <img
-                    src="./assets/residential.png"
-                    alt="Residential icon"
-                    class="w-12 h-12 mr-4"
-                  />
-                  <div>
-                    <h3 class="font-bold text-xl mb-2">Residential Design</h3>
-                    <p class="text-gray-600">
-                      Our residential designs focus on creating comfortable,
-                      stylish homes that suit your lifestyle, with a blend of
-                      traditional and contemporary elements.
-                    </p>
+                <div
+                  class="bg-white rounded-lg shadow-lg p-6 space-y-4 flex flex-col items-center lg:items-start"
+                >
+                  <div
+                    class="flex items-start lg:items-center lg:justify-start"
+                  >
+                    <img
+                      src="./assets/residential.png"
+                      alt="Residential icon"
+                      class="w-12 h-12 mr-4"
+                    />
+                    <div>
+                      <h3 class="font-bold text-xl mb-2">Residential Design</h3>
+                      <p class="text-gray-600">
+                        Our residential designs focus on creating comfortable,
+                        stylish homes that suit your lifestyle, with a blend of
+                        traditional and contemporary elements.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -214,7 +236,7 @@
               <img
                 src="./assets/Rectangle.png"
                 alt="Modern house design"
-                class="rounded-lg shadow-lg w-auto"
+                class="rounded-xl shadow-lg w-auto sm:w-auto sm:h-auto md:w-full md:h-[380px] md:object-cover lg:w-auto lg:h-auto"
               />
             </div>
           </div>
@@ -269,11 +291,11 @@
           <!-- Section Header -->
           <div class="text-center mb-12">
             <button
-                class="bg-slate-100 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-8"
-              >
-                <i class="fas fa-arrow-right"></i>
-                <span>How We Work</span>
-              </button>
+              class="bg-slate-100 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-8"
+            >
+              <i class="fas fa-arrow-right"></i>
+              <span>How We Work</span>
+            </button>
             <h2 class="text-4xl font-bold mb-4">Our Works Process</h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
               Our comprehensive approach ensures that every project is executed
@@ -358,7 +380,7 @@
               <i class="fas fa-arrow-right"></i>
               <span>Explore our Latest works</span>
             </button>
-            <h2 class="text-4xl font-bold mb-4">Our Latest Portfolio</h2>
+            <h2 class="text-4xl font-extrabold mb-4">Our Latest Portfolio</h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
               Discover our most recent architectural marvels, showcasing a
               perfect blend of innovative design and functionality. Each project
@@ -370,10 +392,10 @@
           <!-- Portfolio Grid -->
           <div class="space-y-8">
             <!-- First Row: 3-column grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <!-- Commercial Project 1 -->
               <div
-                class="lg:col-span-2 bg-white rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6"
+                class="lg:col-span-2 bg-white shadow rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6"
               >
                 <div
                   class="lg:w-2/5 h-64 lg:h-auto lg:p-0 flex items-center justify-center"
@@ -409,7 +431,7 @@
 
               <!-- Luxury Home Project -->
               <div
-                class="bg-white rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
+                class="bg-white shadow rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
               >
                 <img
                   src="./assets/img2.png"
@@ -420,7 +442,7 @@
             </div>
             <!-- Modern House Project 2 -->
             <div
-              class="bg-white rounded-3xl overflow-hidden lg:hidden h-64 lg:h-auto p-5 md:p-6"
+              class="bg-white shadow rounded-3xl overflow-hidden lg:hidden h-64 lg:h-auto p-5 md:p-6"
             >
               <img
                 src="./assets/img5.png"
@@ -430,10 +452,10 @@
             </div>
 
             <!-- Second Row: 4-column grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <!-- Modern House Project 1 -->
               <div
-                class="bg-white hidden sm:block rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
+                class="bg-white shadow hidden sm:block rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
               >
                 <img
                   src="./assets/img3.png"
@@ -444,7 +466,7 @@
 
               <!-- Commercial Project 2 -->
               <div
-                class="lg:col-span-2 bg-white rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6"
+                class="lg:col-span-2 bg-white shadow rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6"
               >
                 <div class="lg:w-1/2 order-2 lg:order-1 p-5 md:p-6">
                   <h3 class="text-2xl font-bold mb-4">Commercial</h3>
@@ -475,7 +497,7 @@
                 </div>
               </div>
               <div
-                class="bg-white lg:hidden rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
+                class="bg-white shadow lg:hidden rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
               >
                 <img
                   src="./assets/img3.png"
@@ -486,7 +508,7 @@
 
               <!-- Modern House Project 2 -->
               <div
-                class="bg-white rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
+                class="bg-white shadow rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
               >
                 <img
                   src="./assets/img5.png"
@@ -509,7 +531,7 @@
               <i class="fas fa-arrow-right"></i>
               <span>Experience Our Work</span>
             </button>
-            <h2 class="text-4xl font-bold mb-4">Immersive 3D Virtual Tours</h2>
+            <h2 class="text-4xl font-extrabold mb-4">Immersive 3D Virtual Tours</h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
               Step inside our projects with stunning 3D tours. Explore our
               designs from every angle, right from your device. Get a feel for
@@ -542,7 +564,7 @@
                 </div>
               </button>
             </div>
-          
+
             <!-- 3D Tour 2: Luxury Beach House -->
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">Luxury Beach House</h3>
@@ -568,7 +590,7 @@
                 </div>
               </button>
             </div>
-          
+
             <!-- 3D Tour 3: Contemporary Office Space -->
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">
@@ -596,10 +618,12 @@
                 </div>
               </button>
             </div>
-          
+
             <!-- 3D Tour 4: Eco-Friendly Smart Home -->
             <div class="bg-white p-6 rounded-lg shadow-md">
-              <h3 class="text-xl font-semibold mb-4">Eco-Friendly Smart Home</h3>
+              <h3 class="text-xl font-semibold mb-4">
+                Eco-Friendly Smart Home
+              </h3>
               <div class="aspect-w-16 aspect-h-9 mb-4">
                 <img
                   src="./assets/3D-4.png"
@@ -608,8 +632,8 @@
                 />
               </div>
               <p class="text-gray-600 mb-4">
-                Discover the perfect blend of sustainability and technology in this 
-                innovative smart home designed.
+                Discover the perfect blend of sustainability and technology in
+                this innovative smart home designed.
               </p>
               <button
                 class="btn bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full"
@@ -852,7 +876,7 @@
               <span>Rinterio News</span>
             </button>
 
-            <h2 class="text-4xl font-bold">Read Our Articles and News</h2>
+            <h2 class="text-4xl font-extrabold">Read Our Articles and News</h2>
             <p class="text-gray-500 mt-2">
               Stay updated with the latest trends and insights in modern home
               design, from innovative architecture to interior decoration tips.
