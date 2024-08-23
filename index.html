@@ -268,12 +268,12 @@
         <div class="container mx-auto px-4 py-12">
           <!-- Section Header -->
           <div class="text-center mb-12">
-            <a
-              href="#"
-              class="inline-block bg-slate-100 text-green-700 text-sm px-4 py-2 rounded-full mb-2"
-            >
-              <i class="fas fa-arrow-right"></i> How We Work
-            </a>
+            <button
+                class="bg-slate-100 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-8"
+              >
+                <i class="fas fa-arrow-right"></i>
+                <span>How We Work</span>
+              </button>
             <h2 class="text-4xl font-bold mb-4">Our Works Process</h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
               Our comprehensive approach ensures that every project is executed
@@ -352,10 +352,12 @@
         <div class="container mx-auto px-4">
           <!-- Latest works -->
           <div class="text-center mb-12">
-            <span
-              class="text-sm font-bold text-green-700 bg-green-100 px-3 py-1 rounded-full mb-2 inline-block"
-              >→ Explore our Latest works</span
+            <button
+              class="bg-green-200 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-8"
             >
+              <i class="fas fa-arrow-right"></i>
+              <span>Explore our Latest works</span>
+            </button>
             <h2 class="text-4xl font-bold mb-4">Our Latest Portfolio</h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
               Discover our most recent architectural marvels, showcasing a
@@ -367,23 +369,23 @@
 
           <!-- Portfolio Grid -->
           <div class="space-y-8">
-            <!-- First Section: 3-column grid -->
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:h-64">
+            <!-- First Row: 3-column grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <!-- Commercial Project 1 -->
               <div
-                class="lg:col-span-2 bg-white rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6 lg:items-center"
+                class="lg:col-span-2 bg-white rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6"
               >
                 <div
-                  class="lg:w-2/5 h-64 lg:h-auto lg:p-6 flex items-center justify-center"
+                  class="lg:w-2/5 h-64 lg:h-auto lg:p-0 flex items-center justify-center"
                 >
                   <img
                     src="./assets/img1.png"
                     alt="Commercial Project"
-                    class="w-full h-full object-cover"
+                    class="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
                 <div class="lg:w-3/5 p-5 md:p-6">
-                  <h3 class="text-2xl font-semibold mb-4">Commercial</h3>
+                  <h3 class="text-2xl font-bold mb-4">Commercial</h3>
                   <p class="text-gray-600 mb-6">
                     Our latest office complex seamlessly blends modern
                     aesthetics with eco-friendly design. Featuring open spaces
@@ -391,7 +393,10 @@
                     abundant natural light, this project sets a new standard for
                     sustainable workplaces.
                   </p>
-                  <a href="#" class="btn btn-outline hover:bg-lime-300">
+                  <a
+                    href="#"
+                    class="text-black font-bold flex items-center gap-3"
+                  >
                     View Details
                     <div
                       class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
@@ -409,16 +414,26 @@
                 <img
                   src="./assets/img2.png"
                   alt="Luxury Home"
-                  class="w-full h-full lg:h-full object-cover rounded-3xl"
+                  class="w-full h-full object-cover rounded-3xl"
                 />
               </div>
             </div>
+            <!-- Modern House Project 2 -->
+            <div
+              class="bg-white rounded-3xl overflow-hidden lg:hidden h-64 lg:h-auto p-5 md:p-6"
+            >
+              <img
+                src="./assets/img5.png"
+                alt="Modern House"
+                class="w-full h-full object-cover rounded-3xl"
+              />
+            </div>
 
-            <!-- Second Section: 4-column grid -->
-            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:h-64">
+            <!-- Second Row: 4-column grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <!-- Modern House Project 1 -->
               <div
-                class="bg-white rounded-3xl overflow-hidden h-full lg:h-auto p-5 md:p-6"
+                class="bg-white hidden sm:block rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
               >
                 <img
                   src="./assets/img3.png"
@@ -432,12 +447,17 @@
                 class="lg:col-span-2 bg-white rounded-3xl overflow-hidden flex flex-col lg:flex-row p-5 md:p-6"
               >
                 <div class="lg:w-1/2 order-2 lg:order-1 p-5 md:p-6">
-                  <h3 class="text-2xl font-semibold mb-4">Commercial</h3>
+                  <h3 class="text-2xl font-bold mb-4">Commercial</h3>
                   <p class="text-gray-600 mb-6">
                     This innovative retail space re-imagines the shopping
-                    experience.
+                    experience. With its striking facade and intuitive interior
+                    layout, the design maximizes product visibility while
+                    creating an inviting atmosphere.
                   </p>
-                  <a href="#" class="btn btn-outline hover:bg-lime-300">
+                  <a
+                    href="#"
+                    class="text-black font-bold flex items-center gap-3"
+                  >
                     View Details
                     <div
                       class="w-9 h-9 bg-[#ABEF5F] rounded-full flex items-center justify-center"
@@ -453,6 +473,15 @@
                     class="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
+              </div>
+              <div
+                class="bg-white lg:hidden rounded-3xl overflow-hidden h-64 lg:h-auto p-5 md:p-6"
+              >
+                <img
+                  src="./assets/img3.png"
+                  alt="Modern House"
+                  class="w-full h-full object-cover rounded-3xl"
+                />
               </div>
 
               <!-- Modern House Project 2 -->
@@ -470,17 +499,359 @@
         </div>
       </section>
 
+      <!-- 3D Virtual Tour Section -->
+      <section class="py-5">
+        <div class="container mx-auto px-4">
+          <div class="text-center mb-12">
+            <button
+              class="bg-green-200 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-8"
+            >
+              <i class="fas fa-arrow-right"></i>
+              <span>Experience Our Work</span>
+            </button>
+            <h2 class="text-4xl font-bold mb-4">Immersive 3D Virtual Tours</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+              Step inside our projects with stunning 3D tours. Explore our
+              designs from every angle, right from your device. Get a feel for
+              the space and envision your future home or office.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- 3D Tour 1: Modern Loft Apartment -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-4">Modern Loft Apartment</h3>
+              <div class="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="./assets/3D-1.png"
+                  alt="Modern Loft Apartment"
+                  class="rounded-lg w-full h-full object-cover"
+                />
+              </div>
+              <p class="text-gray-600 mb-4">
+                Experience urban living at its finest in this sleek,
+                open-concept loft with stunning city views.
+              </p>
+              <button
+                class="btn bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full"
+              >
+                Start Tour
+                <div
+                  class="w-9 h-9 bg-black rounded-full flex items-center justify-center ml-2"
+                >
+                  <i class="fa-solid fa-vr-cardboard text-lg text-white"></i>
+                </div>
+              </button>
+            </div>
+          
+            <!-- 3D Tour 2: Luxury Beach House -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-4">Luxury Beach House</h3>
+              <div class="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="./assets/3D-2.png"
+                  alt="Luxury Beach House"
+                  class="rounded-lg w-full h-full object-cover"
+                />
+              </div>
+              <p class="text-gray-600 mb-4">
+                Immerse yourself in coastal elegance with this stunning
+                beachfront property featuring panoramic ocean views.
+              </p>
+              <button
+                class="btn bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full"
+              >
+                Start Tour
+                <div
+                  class="w-9 h-9 bg-black rounded-full flex items-center justify-center ml-2"
+                >
+                  <i class="fa-solid fa-vr-cardboard text-lg text-white"></i>
+                </div>
+              </button>
+            </div>
+          
+            <!-- 3D Tour 3: Contemporary Office Space -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-4">
+                Contemporary Office Space
+              </h3>
+              <div class="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="./assets/3D-3.png"
+                  alt="Contemporary Office Space"
+                  class="rounded-lg w-full h-full object-cover"
+                />
+              </div>
+              <p class="text-gray-600 mb-4">
+                Explore a cutting-edge workspace designed for collaboration,
+                productivity, and employee well-being.
+              </p>
+              <button
+                class="btn bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full"
+              >
+                Start Tour
+                <div
+                  class="w-9 h-9 bg-black rounded-full flex items-center justify-center ml-2"
+                >
+                  <i class="fa-solid fa-vr-cardboard text-lg text-white"></i>
+                </div>
+              </button>
+            </div>
+          
+            <!-- 3D Tour 4: Eco-Friendly Smart Home -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-4">Eco-Friendly Smart Home</h3>
+              <div class="aspect-w-16 aspect-h-9 mb-4">
+                <img
+                  src="./assets/3D-4.png"
+                  alt="Eco-Friendly Smart Home"
+                  class="rounded-lg w-full h-full object-cover"
+                />
+              </div>
+              <p class="text-gray-600 mb-4">
+                Discover the perfect blend of sustainability and technology in this 
+                innovative smart home designed.
+              </p>
+              <button
+                class="btn bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full"
+              >
+                Start Tour
+                <div
+                  class="w-9 h-9 bg-black rounded-full flex items-center justify-center ml-2"
+                >
+                  <i class="fa-solid fa-vr-cardboard text-lg text-white"></i>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Tour Features -->
+          <div class="mt-16">
+            <h3 class="text-2xl lg:text-3xl font-extrabold text-center mb-8">
+              Tour Features
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                <i
+                  class="fa-solid fa-camera-rotate text-3xl text-green-600 mb-2"
+                ></i>
+                <h4 class="font-semibold mb-2">360° Views</h4>
+                <p class="text-gray-600">
+                  Explore every corner of the space with full 360-degree
+                  panoramic views.
+                </p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                <i class="fas fa-vr-cardboard text-3xl text-green-600 mb-2"></i>
+                <h4 class="font-semibold mb-2">VR Compatible</h4>
+                <p class="text-gray-600">
+                  Use your VR headset for an even more immersive experience.
+                </p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                <i class="fas fa-info-circle text-3xl text-green-600 mb-2"></i>
+                <h4 class="font-semibold mb-2">Interactive Hot-spots</h4>
+                <p class="text-gray-600">
+                  Click on hot-spots to learn more about specific features and
+                  materials.
+                </p>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                <i class="fas fa-mobile-alt text-3xl text-green-600 mb-2"></i>
+                <h4 class="font-semibold mb-2">Mobile Friendly</h4>
+                <p class="text-gray-600">
+                  Access tours on any device, from desktop to smartphone.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Client Testimonials Section -->
+      <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <div class="text-center mb-12">
+            <div class="mb-8">
+              <button
+                class="bg-green-200 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-6"
+              >
+                <i class="fas fa-arrow-right"></i>
+                <span>What Our Clients Say</span>
+              </button>
+            </div>
+
+            <h2 class="text-4xl font-extrabold mb-4">Client Testimonials</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+              Discover why our clients love working with Rinterio. Read their
+              stories and experiences to see how we can transform your space.
+            </p>
+          </div>
+
+          <!-- Testimonials Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Testimonial 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="flex items-center mb-4">
+                <img
+                  src="./assets/client-1.png"
+                  alt="Sarah Johnson"
+                  class="w-12 h-12 rounded-full mr-4"
+                />
+                <div>
+                  <h4 class="font-semibold">Sarah Johnson</h4>
+                  <p class="text-sm text-gray-600">Residential Client</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                "Rinterio transformed our house into a dream home. Their
+                attention to detail and innovative design solutions exceeded our
+                expectations. The team was professional, creative, and a joy to
+                work with throughout the entire process."
+              </p>
+              <div class="flex items-center">
+                <div class="text-yellow-400">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="ml-2 text-gray-600">5.0</span>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="flex items-center mb-4">
+                <img
+                  src="./assets/client-2.png"
+                  alt="Michael Chen"
+                  class="w-12 h-12 rounded-full mr-4"
+                />
+                <div>
+                  <h4 class="font-semibold">Michael Chen</h4>
+                  <p class="text-sm text-gray-600">Commercial Client</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                "Working with Rinterio on our office redesign was a
+                game-changer. They created a space that not only looks amazing
+                but has significantly improved our team's productivity and
+                morale. Their understanding of modern workplace needs is
+                unparalleled."
+              </p>
+              <div class="flex items-center">
+                <div class="text-yellow-400">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="ml-2 text-gray-600">4.8</span>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="flex items-center mb-4">
+                <img
+                  src="./assets/client-3.png"
+                  alt="Emily Rodriguez"
+                  class="w-12 h-12 rounded-full mr-4"
+                />
+                <div>
+                  <h4 class="font-semibold">Emily Rodriguez</h4>
+                  <p class="text-sm text-gray-600">Residential Client</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                "I was amazed by Rinterio's ability to blend modern design with
+                eco-friendly solutions. They created a sustainable living space
+                that's both beautiful and energy-efficient. Their commitment to
+                green design practices is truly commendable."
+              </p>
+              <div class="flex items-center">
+                <div class="text-yellow-400">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="ml-2 text-gray-600">5.0</span>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 (New) -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <div class="flex items-center mb-4">
+                <img
+                  src="./assets/client-4.png"
+                  alt="David Thompson"
+                  class="w-12 h-12 rounded-full mr-4"
+                />
+                <div>
+                  <h4 class="font-semibold">David Thompson</h4>
+                  <p class="text-sm text-gray-600">Commercial Client</p>
+                </div>
+              </div>
+              <p class="text-gray-700 mb-4">
+                "Rinterio's innovative approach to our retail space design has
+                dramatically improved our customer experience. Their ability to
+                maximize space efficiency while creating an inviting atmosphere
+                has directly contributed to increased sales. Highly
+                recommended!"
+              </p>
+              <div class="flex items-center">
+                <div class="text-yellow-400">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="ml-2 text-gray-600">5.0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Stats -->
+          <div
+            class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 class="text-4xl font-bold text-green-600 mb-2">98%</h3>
+              <p class="text-gray-600">Client Satisfaction Rate</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 class="text-4xl font-bold text-green-600 mb-2">200+</h3>
+              <p class="text-gray-600">Projects Completed</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 class="text-4xl font-bold text-green-600 mb-2">5/5</h3>
+              <p class="text-gray-600">Best Client Rating</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 class="text-4xl font-bold text-green-600 mb-2">4.9/5</h3>
+              <p class="text-gray-600">Average Client Rating</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Articles and News Section -->
       <section class="py-6 lg:py-12">
         <div class="container mx-auto px-4 py-3">
           <!-- Title and Description -->
           <div class="mb-8 text-center">
-            <a
-              href="#"
-              class="inline-block bg-green-100 text-green-700 text-sm px-4 py-2 rounded-full mb-2"
+            <button
+              class="bg-green-200 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-8"
             >
-              <i class="fas fa-arrow-right"></i> Rinterio News
-            </a>
+              <i class="fas fa-arrow-right"></i>
+              <span>Rinterio News</span>
+            </button>
+
             <h2 class="text-4xl font-bold">Read Our Articles and News</h2>
             <p class="text-gray-500 mt-2">
               Stay updated with the latest trends and insights in modern home
@@ -593,74 +964,73 @@
       </section>
 
       <!-- Next Project Section -->
-      <section
-        class="bg-cover bg-center py-16"
-        style="background-image: url('./assets/bg.jpg')"
-      >
-        <div class="container mx-auto px-4 text-center">
-          <!-- Next Project Heading -->
-          <div class="mb-8 text-center">
-            <button
-              class="bg-green-200 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2"
-            >
-              <i class="fas fa-arrow-right"></i>
-              <span>Let's Connect</span>
-            </button>
-            <h2 class="text-4xl font-extrabold mt-4">
-              Let's Discuss Your Next Project
-            </h2>
-            <p class="text-gray-600 mt-2 max-w-2xl mx-auto">
-              We're excited to collaborate with you on your upcoming project.
-              Whether it's a residential build, a commercial space, or a unique
-              design concept, our team is here to help bring your vision to
-              life. Let's start a conversation and explore how we can create
-              something extraordinary together.
-            </p>
-          </div>
-
-          <!-- Form -->
-          <form class="max-w-5xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder="First Name*"
-                class="input input-bordered w-full rounded-full"
-              />
-              <input
-                type="text"
-                placeholder="Last Name*"
-                class="input input-bordered w-full rounded-full"
-              />
-              <input
-                type="tel"
-                placeholder="Phone Number*"
-                class="input input-bordered w-full rounded-full"
-              />
-              <input
-                type="email"
-                placeholder="Email Address*"
-                class="input input-bordered w-full rounded-full"
-              />
-            </div>
-            <textarea
-              class="textarea textarea-bordered textarea-lg w-full mt-4 rounded-3xl"
-              rows="4"
-              placeholder="Tell us about your project"
-            ></textarea>
-            <button
-              type="submit"
-              class="btn bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full mt-4"
-            >
-              Send Mail
-              <div
-                class="w-9 h-9 bg-black rounded-full flex items-center justify-center"
+      <section class="bg-cover bg-white bg-center p-1 md:p-2">
+        <div style="background-image: url('./assets/bg.jpg')">
+          <div class="container mx-auto px-4 text-center py-16">
+            <!-- Next Project Heading -->
+            <div class="mb-8 text-center">
+              <button
+                class="bg-green-200 text-green-700 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-8"
               >
-                <i
-                  class="fa-solid fa-arrow-right text-lg text-white -rotate-45"
-                ></i>
+                <i class="fas fa-arrow-right"></i>
+                <span>Let's Connect</span>
+              </button>
+              <h2 class="text-4xl font-extrabold mt-4">
+                Let's Discuss Your Next Project
+              </h2>
+              <p class="text-gray-600 mt-2 max-w-2xl mx-auto">
+                We're excited to collaborate with you on your upcoming project.
+                Whether it's a residential build, a commercial space, or a
+                unique design concept, our team is here to help bring your
+                vision to life. Let's start a conversation and explore how we
+                can create something extraordinary together.
+              </p>
+            </div>
+
+            <!-- Form -->
+            <form class="max-w-5xl mx-auto">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  placeholder="First Name*"
+                  class="input input-bordered w-full rounded-full"
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name*"
+                  class="input input-bordered w-full rounded-full"
+                />
+                <input
+                  type="tel"
+                  placeholder="Phone Number*"
+                  class="input input-bordered w-full rounded-full"
+                />
+                <input
+                  type="email"
+                  placeholder="Email Address*"
+                  class="input input-bordered w-full rounded-full"
+                />
               </div>
-            </button>
-          </form>
+              <textarea
+                class="textarea textarea-bordered textarea-lg w-full mt-4 rounded-3xl"
+                rows="4"
+                placeholder="Tell us about your project"
+              ></textarea>
+              <button
+                type="submit"
+                class="btn bg-[#ABEF5F] hover:bg-lime-300 rounded-full w-full mt-4"
+              >
+                Send Mail
+                <div
+                  class="w-9 h-9 bg-black rounded-full flex items-center justify-center"
+                >
+                  <i
+                    class="fa-solid fa-arrow-right text-lg text-white -rotate-45"
+                  ></i>
+                </div>
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
