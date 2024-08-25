@@ -4,7 +4,7 @@
 
 1. **Installation**: I opted to install Tailwind CSS and DaisyUI directly rather than using their CDN. After completing the second module, I had some time to watch Learn with Sumit’s tutorials on Tailwind CSS. His free tutorials covered some advanced techniques that were quite helpful in preparing me for our third module.
 
-2. **Responsiveness**: The site is designed to be responsive across both mobile and desktop views. I utilized Tailwind CSS’s responsive utilities, including DaisyUI, to ensure proper display on various screen sizes.
+2. **Responsiveness**: The site is designed to be responsive across both mobile and desktop views. I utilized Tailwind CSS’s responsive utilities, including DaisyUI, to ensure proper display on various screen sizes. As reference I have added both large and small devices screenshots.
 
 3. **Accessibility**: I have made an effort to adhere to good accessibility practices throughout the site.
 
