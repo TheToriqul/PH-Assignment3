@@ -1733,24 +1733,16 @@ html {
   height: 2.25rem;
 }
 
+.h-\[250px\] {
+  height: 250px;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[250px\] {
-  height: 250px;
 }
 
 .w-12 {
@@ -1767,10 +1759,6 @@ html {
 
 .w-9 {
   width: 2.25rem;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .w-full {
