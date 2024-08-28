@@ -1,4 +1,4 @@
-# Rinterio - Modern Interior Design Website
+# [Rinterio - Modern Interior Design Website](https://thetoriqul.github.io/Rinterio-Modern-Interior-Design-Website/)
 
 ## Overview
 
@@ -17,7 +17,7 @@ Rinterio is a responsive website for a modern interior design company. It showca
 ## Technologies Used
 
 - HTML5
-- CSS3 (Tailwind CSS framework)
+- CSS3 (Tailwind CSS framework & DaisyUI as Tailwind component)
 - JavaScript (minimal usage for interactivity)
 - Font Awesome (for icons)
 - Google Fonts (Manrope font family)
@@ -27,6 +27,8 @@ Rinterio is a responsive website for a modern interior design company. It showca
 - `index.html`: Main HTML file
 - `./dist/styles.css`: Compiled Tailwind CSS file
 - `./assets/`: Directory containing all image assets
+- `./output_view/`: Directory containing all output assets
+- `./src/`: Directory containing input CSS file
 
 ## Sections
 
@@ -52,3 +54,36 @@ Rinterio is a responsive website for a modern interior design company. It showca
 - Update content in `index.html` to reflect your company's information
 - Replace images in the `./assets/` directory with your own project photos
 - Modify colors and styles by adjusting Tailwind CSS classes in the HTML
+
+## Browser Compatibility
+
+The website is designed to be compatible with modern web browsers including Chrome, Firefox, Safari, and Edge.
+
+## Performance Considerations
+
+- Optimize images for web to ensure fast loading times
+- Consider lazy loading for images and 3D tour content
+- Minify CSS and JavaScript files for production use
+
+## Future Enhancements
+
+- Add more interactive elements using JavaScript
+- Implement a backend for the contact form
+- Create individual pages for portfolio items and blog posts
+- Integrate a content management system for easy updates
+
+## Contributing
+
+Contributions to TheToriqul-Website-Deploy repository are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Please ensure that your contributions adhere to the project's guidelines and coding standards.
+
+
+## Contact
+
+For any questions or inquiries regarding the deployment process, please feel free to contact us:
+
+- **Email:** toriqul.int@gmail.com
+- **Phone:** +65 8936 7705, +8801765 939006
+
+---
+
+© 2024 All Rights Reserved by TheToriqul.
