@@ -86,4 +86,4 @@ For any questions or inquiries regarding the deployment process, please feel fre
 
 ---
 
-© 2024 All Rights Reserved by TheToriqul.
+Copyright © 2024 TheToriqul. All Rights Reserved.
