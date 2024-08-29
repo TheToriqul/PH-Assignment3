@@ -74,7 +74,7 @@ The website is designed to be compatible with modern web browsers including Chro
 
 ## Contributing
 
-Contributions to TheToriqul-Website-Deploy repository are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Please ensure that your contributions adhere to the project's guidelines and coding standards.
+Contributions to Rinterio - Modern Interior Design Website repository are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Please ensure that your contributions adhere to the project's guidelines and coding standards.
 
 
 ## Contact
