@@ -1,18 +1,49 @@
 # [Rinterio - Modern Interior Design Website](https://thetoriqul.github.io/Rinterio-Modern-Interior-Design-Website/)
 
+[![GitHub](https://img.shields.io/badge/GitHub-Rinterio-blue?style=flat&logo=github)](https://github.com/TheToriqul/Rinterio-Modern-Interior-Design-Website)
+[![GitHub stars](https://img.shields.io/github/stars/TheToriqul/Rinterio-Modern-Interior-Design-Website?style=social)](https://github.com/TheToriqul/Rinterio-Modern-Interior-Design-Website/stargazers)
+
+Rinterio is a responsive website for a modern interior design company, showcasing the company's portfolio, services, and expertise in both residential and commercial design projects. The site is specifically optimized for desktop/large devices and mobile views.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Sections](#sections)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [API Reference](#api-reference)
+- [Configuration](#configuration)
+- [Customization](#customization)
+- [Browser Compatibility](#browser-compatibility)
+- [Performance Considerations](#performance-considerations)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Future Enhancements](#future-enhancements)
+- [Acknowledgments](#acknowledgments)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
 ## Overview
 
-Rinterio is a responsive website for a modern interior design company. It showcases the company's portfolio, services, and expertise in both residential and commercial design projects. The website is optimized for desktop/large devices and mobile devices.
+Rinterio is designed to showcase a modern interior design company's work and services. It provides an interactive platform for potential clients to explore design projects, learn about the company's process, and easily get in touch for consultations. The website's responsive design ensures a seamless experience on both desktop/large devices and mobile devices, with no specific optimization for tablet or intermediate screen sizes.
 
 ## Features
 
-- Responsive design optimized for desktop/large devices and mobile views
+- Responsive design specifically optimized for desktop/large devices and mobile views
 - Interactive navigation menu with dropdown for mobile devices
-- Sections for showcasing portfolio, services, and client testimonials
-- 3D Virtual Tour feature to explore design projects
+- Portfolio showcase with 3D Virtual Tour feature
 - Client testimonials and satisfaction statistics
 - Blog section for articles and news
 - Contact form for project inquiries
+
+## Demo
+
+Visit the live demo: [Rinterio Modern Interior Design Website](https://thetoriqul.github.io/Rinterio-Modern-Interior-Design-Website/)
 
 ## Technologies Used
 
@@ -24,85 +55,98 @@ Rinterio is a responsive website for a modern interior design company. It showca
 
 ## Project Structure
 
-- `index.html`: Main HTML file
-- `./dist/styles.css`: Compiled Tailwind CSS file
-- `./assets/`: Directory containing all image assets
-- `./output_view/`: Directory containing all output assets
-- `./src/`: Directory containing input CSS file
+```
+rinterio/
+├── index.html
+├── dist/
+│   └── styles.css
+├── assets/
+│   └── (image files)
+├── output_view/
+│   └── (output assets)
+└── src/
+    └── (input CSS file)
+```
 
 ## Sections
 
-1. **Header**: Logo, navigation menu, and hero section
-2. **About**: Company introduction and key services
-3. **Statistics**: Key performance indicators
-4. **Work Process**: Step-by-step explanation of the design process
-5. **Portfolio**: Showcase of recent projects
-6. **3D Virtual Tours**: Interactive 3D tours of selected projects
-7. **Client Testimonials**: Feedback from satisfied clients
-8. **Articles and News**: Blog section with recent posts
-9. **Contact Form**: For project inquiries and consultations
-10. **Footer**: Company information and additional navigation
+1. Header (Logo, navigation menu, and hero section)
+2. About
+3. Statistics
+4. Work Process
+5. Portfolio
+6. 3D Virtual Tours
+7. Client Testimonials
+8. Articles and News
+9. Contact Form
+10. Footer
 
-## Setup and Installation
+## Getting Started
 
-1. Clone the repository
-2. Open `index.html` in a web browser to view the website
-3. To make changes to the Tailwind CSS, you'll need to set up a build process (refer to Tailwind CSS documentation)
+### Prerequisites
+
+- A modern web browser (desktop or mobile)
+- Basic understanding of HTML and CSS (for customization)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TheToriqul/Rinterio-Modern-Interior-Design-Website.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Rinterio-Modern-Interior-Design-Website
+   ```
+3. Open `index.html` in a web browser to view the website
 
 ## Usage
 
-To use this website:
+Navigate through the website sections using the menu. Explore the portfolio, read about services, and use the contact form for inquiries. The site is optimized for viewing on desktop/large devices and mobile devices only.
 
-1. Access the site on either a desktop/large device or a mobile device for optimal viewing experience.
-2. Navigate through different sections using the menu (dropdown menu on mobile).
-3. Explore the portfolio to view completed projects.
-4. Use the 3D Virtual Tour feature to get an immersive view of selected designs.
-5. Read client testimonials and check satisfaction statistics.
-6. Browse the blog section for articles and news about interior design.
-7. Use the contact form to inquire about services or request a consultation.
+## API Reference
+
+This project does not currently utilize any APIs.
+
+## Configuration
+
+No additional configuration is required to run this static website.
 
 ## Customization
 
 - Update content in `index.html` to reflect your company's information
 - Replace images in the `./assets/` directory with your own project photos
 - Modify colors and styles by adjusting Tailwind CSS classes in the HTML
-- When customizing, ensure changes look good on both desktop and mobile views
+- When customizing, ensure changes look good on both desktop/large devices and mobile views
 
 ## Browser Compatibility
 
-The website is designed to be compatible with modern web browsers including Chrome, Firefox, Safari, and Edge, on both desktop and mobile devices.
+The website is compatible with modern web browsers including Chrome, Firefox, Safari, and Edge, specifically on desktop/large devices and mobile devices.
 
 ## Performance Considerations
 
-- Optimize images for web to ensure fast loading times, especially for mobile devices
+- Optimize images for web to ensure fast loading times on both desktop and mobile
 - Consider lazy loading for images and 3D tour content to improve mobile performance
 - Minify CSS and JavaScript files for production use
-- Test performance on both desktop and mobile devices to ensure optimal user experience
 
 ## Testing
 
-To ensure the website functions correctly:
+Manually test the website on various desktop/large devices and mobile devices to ensure responsiveness and functionality. Focus on:
 
-1. Test thoroughly on desktop/large devices and mobile devices
-2. Use browser developer tools to test responsiveness, focusing on desktop and mobile breakpoints
-3. Conduct cross-browser testing on Chrome, Firefox, Safari, and Edge
-4. Test all interactive elements, including the navigation menu and contact form
-5. Verify that all images and 3D tours load properly on both device types
-6. Ensure that the mobile dropdown menu works correctly
+1. Desktop/large device views
+2. Mobile device views
+3. Functionality of interactive elements on both device types
 
 ## Deployment
 
-To deploy the Rinterio website:
+To deploy using GitHub Pages:
 
-1. Ensure all files are up to date in your repository
-2. If using GitHub Pages:
-   - Go to your repository settings
-   - Navigate to the "Pages" section
-   - Choose the branch you want to deploy (usually `main` or `master`)
-   - Select the root folder as the source
-   - Save the settings and wait for GitHub to deploy your site
-3. For other hosting platforms, upload all files to your web server via FTP or the provided deployment method
-4. After deployment, test the live site on both desktop and mobile devices to ensure proper functionality
+1. Go to your repository settings
+2. Navigate to the "Pages" section
+3. Choose the branch you want to deploy (usually `main` or `master`)
+4. Select the root folder as the source
+5. Save the settings and wait for GitHub to deploy your site
+6. After deployment, test on both large devices and small devices
 
 ## Future Enhancements
 
@@ -112,16 +156,24 @@ To deploy the Rinterio website:
 - Integrate a content management system for easy updates
 - Consider developing a tablet-specific layout if needed in the future
 
+## Acknowledgments
+
+- Tailwind CSS for the utility-first CSS framework
+- DaisyUI for additional Tailwind components
+- Font Awesome for the icon set
+- Google Fonts for the Manrope font family
+
 ## Contributing
 
-Contributions to Rinterio - Modern Interior Design Website repository are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Please ensure that your contributions adhere to the project's guidelines and coding standards, and maintain responsiveness for both desktop and mobile views.
+Contributions to Rinterio are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Please ensure that your contributions adhere to the project's guidelines and coding standards, and maintain responsiveness for both desktop/large devices and mobile views.
 
 ## Contact
 
-For any questions or inquiries regarding the deployment process, please feel free to contact us:
+For any questions or inquiries regarding the project, please feel free to contact us:
 
 - **Email:** toriqul.int@gmail.com
 - **Phone:** +65 8936 7705, +8801765 939006
+- **Project Link:** https://github.com/TheToriqul/Rinterio-Modern-Interior-Design-Website
 
 ---
 
