@@ -169,7 +169,7 @@ Contributions to Rinterio are welcome! If you have suggestions, improvements, or
 
 ## Contact
 
-For any questions or inquiries regarding the project, please feel free to contact us:
+For any questions or inquiries regarding the project, please feel free to contact me:
 
 - **Email:** toriqul.int@gmail.com
 - **Phone:** +65 8936 7705, +8801765 939006
